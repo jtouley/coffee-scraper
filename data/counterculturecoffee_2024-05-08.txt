@@ -1,0 +1,16 @@
+Name,Price,Roast Type,Tasting Notes,Origin
+Nueva Llusta,$22,light roast,black cherry | hazelnut | creamy,Single-Origin | Caranavi, Bolivia
+K’uychi,$22,light roast,green grape | clementine | milk chocolate,Single-Origin | Nariño, Colombia
+Even Keel Half-Caff,$19,medium roast,graham cracker | molasses | soft,Year-Round Blend
+Perennial,$23,medium roast,fig | cocoa nibs | full-bodied,Limited-Release Blend
+Decaf K’uychi,$23,light roast,black cherry | dried date | molasses,Single-Origin | Nariño, Colombia
+Cueva de los Llanos,$23,light roast,green grape | almond | milk chocolate,Single-Origin | Nariño, Colombia
+Intango – Dark Roast,$23,dark roast,dark chocolate | dried fig | velvety,Single-Origin | Karongi, Rwanda
+La Golondrina,$23,light roast,milk chocolate | cherry | nut,Single-Origin | Timbio, Colombia
+Big Trouble,$18,medium dark roast,caramel | nutty | round,Year-Round Blend
+Slow Motion – Decaf,$19,medium roast,molasses | cocoa | smooth,Year-Round Blend
+Hologram,$19,medium roast,fruity | milk chocolate | syrupy,Year-Round Blend
+Apollo,$19,medium roast,citrus | floral | silky,Year-Round Blend
+Fast Forward,$18,medium roast,nutty | sweet | creamy,Year-Round Blend
+Gradient,$19,dark roast,dark chocolate | roasted nuts | berry,Year-Round Blend
+Forty-Six,$19,dark roast,dark chocolate | sweet | full-bodied,Year-Round Blend
