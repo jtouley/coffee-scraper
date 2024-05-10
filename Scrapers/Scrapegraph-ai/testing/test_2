@@ -1,0 +1,57 @@
+import os
+from scrapegraphai.graphs import SmartScraperGraph
+
+# Set up the API key and configuration
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+graph_config = {
+    "llm": {
+        "api_key": OPENAI_API_KEY,
+        "model": "gpt-3.5-turbo",
+    },
+}
+
+# Define the prompt for scraping product names
+product_names_prompt = """
+1. Start at the top of the webpage.
+2. Scroll down slowly, allowing all product information to load fully. Continue scrolling until you reach the bottom of the page or no new products appear for at least 10 seconds.
+3. Once all content is visible, compile a complete list of all the coffee products available for sale.
+4. For each product, extract and list the following detail:
+    -   Name: The name of the coffee product.
+
+Ensure to capture all data from the top of the page to the footer, and do not leave out any products that may load late due to the website's dynamic content loading feature.
+"""
+
+# Define the main page URL and base product URL
+main_page_url = "https://onyxcoffeelab.com/collections/coffee/"
+base_product_url = "https://onyxcoffeelab.com/products/"
+
+# Create a SmartScraperGraph instance for scraping product names
+product_names_graph = SmartScraperGraph(
+    prompt=product_names_prompt,
+    source=main_page_url,
+    config=graph_config
+)
+
+# Run the graph to scrape product names
+product_names_result = product_names_graph.run()
+
+# Extract the list of product names
+product_names = product_names_result.get("product_names", [])
+
+# Print the scraped product names
+print("Product Names:")
+for product_name in product_names:
+    print(product_name)
+
+# Define a function to generate product URLs based on product names
+def generate_product_urls(product_names, base_product_url):
+    product_urls = [base_product_url + product_name.replace(" ", "-") for product_name in product_names]
+    return product_urls
+
+# Generate product URLs
+product_urls = generate_product_urls(product_names, base_product_url)
+
+# Print product names and URLs
+print("\nProduct Names and URLs:")
+for product_name, product_url in zip(product_names, product_urls):
+    print(f"Product Name: {product_name}, URL: {product_url}")

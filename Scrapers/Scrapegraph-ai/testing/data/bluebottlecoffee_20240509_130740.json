@@ -1,0 +1,58 @@
+{
+    "products": [
+        {
+            "Name": "Burundi Ngozi Bavyeyi Washing Station",
+            "Price": "$14",
+            "Roast Type": "Light Roast",
+            "Tasting Notes": "Tangerine, Jasmine, Plum"
+        },
+        {
+            "Name": "Guatemala El Injerto Set",
+            "Price": "$50",
+            "Roast Type": "Natural",
+            "Tasting Notes": "Two Single Origins Showcasing El Injerto\u2019s Innovation"
+        },
+        {
+            "Name": "Women in Coffee Set",
+            "Price": "Regular Price: $35, Discounted Price: $31.50",
+            "Roast Type": "Natural",
+            "Tasting Notes": "Two Single Origins Showcasing the Diversity in Regional Flavor"
+        },
+        {
+            "Name": "Honduras Santa B\u00e1rbara Jobneel Caceres",
+            "Price": "$17.50",
+            "Roast Type": "Medium Roast",
+            "Tasting Notes": "Brown Sugar, Grapefruit, Dried Strawberry"
+        },
+        {
+            "Name": "Brazil Robusta Anaerobic",
+            "Price": "$25",
+            "Roast Type": "Dark Roast",
+            "Tasting Notes": "Creamy, Dark Chocolate, Raisin"
+        },
+        {
+            "Name": "Myanmar Shan State Mya Ze Di Village Natural",
+            "Price": "Regular Price: $27, Discounted Price: $22.95",
+            "Roast Type": "Light Roast",
+            "Tasting Notes": "Kiwi, Fig, Lemongrass"
+        },
+        {
+            "Name": "Single Origin Assortment",
+            "Price": "$25",
+            "Roast Type": "Light to Medium Roast",
+            "Tasting Notes": "Fruit Notes, Brown Sugar, Caramel"
+        },
+        {
+            "Name": "Roaster\u2019s Choice Box",
+            "Price": "$45",
+            "Roast Type": "Not specified",
+            "Tasting Notes": "A rotating collection of three single origins selected by our roasters"
+        },
+        {
+            "Name": "Exceedingly Rare Moka Java",
+            "Price": "$55",
+            "Roast Type": "Light Roast",
+            "Tasting Notes": "A Modern Recreation of the First-Ever Blend"
+        }
+    ]
+}

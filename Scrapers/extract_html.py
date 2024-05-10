@@ -10,6 +10,6 @@ def save_html_locally(url, file_path):
         print("Failed to fetch data from the website.")
 
 if __name__ == "__main__":
-    url = 'https://bluebottlecoffee.com/us/eng/collection/single-origin'
-    file_path = 'bluebottle_single_origins.html'
+    url = 'https://onyxcoffeelab.com/products/Peru-La-Margarita-Gesha'
+    file_path = 'onyx_product_example.html'
     save_html_locally(url, file_path)

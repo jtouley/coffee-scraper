@@ -46,7 +46,7 @@ def scrape_coffee_data(url):
     html = fetch_page(url)
     soup = parse_html(html)
     data = extract_data(soup)
-    today = datetime.datetime.now().strftime("%Y-%m-%d")
+    today = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
     roaster = url.split('/')[-3].split('.')[0]
     filename = f"data/{roaster}_{today}.txt"
     save_to_file(data, filename)
